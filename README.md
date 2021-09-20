@@ -8,4 +8,4 @@ This is a simple [backtracing algorithm](https://wikipedia.org/wiki/Sudoku_solvi
 
 `pip install numpy termcolor`
 
-Enter your sudoku in line 12-22 and run the file to start the sudoku solver.
+Enter your sudoku in line [12-22](https://github.com/WalterWoshid/Sudoku-Solver/blob/main/sudoku_solver.py#L12-L22) and run the file to start the sudoku solver.
