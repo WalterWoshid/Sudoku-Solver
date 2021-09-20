@@ -7,11 +7,6 @@ import time
 import numpy as np
 from termcolor import colored
 
-# Clear interpreter output
-def clear() -> None:
-    # Windows / Linux
-    os.system('cls' if os.name == 'nt' else 'clear')
-
 # Define your sudoku here:
 sudoku = np.concatenate([
     [5, 3, 0], [0, 7, 0], [0, 0, 0],
@@ -26,6 +21,11 @@ sudoku = np.concatenate([
     [0, 0, 0], [4, 1, 9], [0, 0, 5],
     [0, 0, 0], [0, 8, 0], [0, 7, 9],
 ]).tolist()
+
+# Clear interpreter output
+def clear() -> None:
+    # Windows / Linux
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 # Prints the sudoku to the terminal
 def print_sudoku(sudoku: list) -> None:
